@@ -16,9 +16,11 @@
                 "box3lab.box3arenapro"
             ],
             "settings": {
-                "nodeJsTool.InstallScript": "npx create-arena-project@latest ."//,
-                //"userCenterTool.AccountToken": "待填写",
-                //"userCenterTool.UserAgent": "待填写"
+                "[workspace]": {
+                    "nodeJsTool.InstallScript": "npx create-arena-project@latest ."//,
+                    //"userCenterTool.AccountToken": "待填写",
+                    //"userCenterTool.UserAgent": "待填写"
+                }
             }
         }
     },
