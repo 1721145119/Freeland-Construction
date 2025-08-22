@@ -1,0 +1,26 @@
+
+{
+    "name": "空地乱建——Freeland Construction（FC）",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "latest",
+            "nodePackageManager": "npm"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "arena.arena-pro-creator"
+            ],
+            "settings": {
+                "nodeJsTool.InstallScript": "npx create-arena-project@latest ."//,
+                //"userCenterTool.AccountToken": "待填写",
+                //"userCenterTool.UserAgent": "待填写"
+            }
+        }
+    },
+    "remoteUser": "vscode"
+}
