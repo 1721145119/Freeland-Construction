@@ -1,4 +1,8 @@
 {
+    "name": "空地乱建——Freeland Construction（FC）",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "features": {
         "ghcr.io/devcontainers/features/node:1": {
             "version": "latest",
@@ -16,5 +20,6 @@
                 //"userCenterTool.UserAgent": "待填写"
             }
         }
-    }
+    },
+    "remoteUser": "vscode"
 }
