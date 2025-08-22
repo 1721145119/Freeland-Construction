@@ -1,6 +1,6 @@
 
 {
-    "name": "空地乱建——Freeland Construction（FC）",
+    "name": "ArenaPro Development",
     "build": {
         "dockerfile": "Dockerfile"
     },
@@ -13,7 +13,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "arena.arena-pro-creator"
+                "box3lab.box3arenapro"
             ],
             "settings": {
                 "nodeJsTool.InstallScript": "npx create-arena-project@latest ."//,
